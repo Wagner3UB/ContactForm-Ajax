@@ -1,0 +1,30 @@
+Form de contato que utiliza um arquivo em php e JS-Ajax para o invio
+
+
+No contato.html
+
+**Prestar atenção no "onclick" no botão de envio
+**Não esquecer de linkar o JQuery no head
+**Todos os campos devem ter seu correspondente dentro do Ajax
+
+Lembrar das repetições:
+> criar uma variavel para cada ID
+> colocar dentro de controleDados (linha 147)
+> Campos de tipo preenchimento devem ser acrescidos de uma variavel .value (linha 156)
+> As novas variaveis devem ser colocadas dentro do dataList (linha 161)
+> Na linha 172 devem ir os campos que podem ser apagados
+> Dento de controleInput (177) vão todos os imputs que devem passar por um controle
+> linhas 211 e 218 são de conferencia de email e checkbox
+> linhas 191, 198 e 205 são de conferencia de campos de texto
+> linha 234 são os campos de reset e seu layout inicial
+
+No invio-contato.php
+
+> Entre as linhas 5 a 9 são os campos de obtenção de informações - Acrescentar e retirar o que for necessário ; Não mexer no email e privacy
+> 11 e 12 -> campos que devem ser alterados com a necessidade e dados do cliente
+> 14 a 19 -> é o corpo do email, e deve conter as variaveis colocadas entre 5 e 9
+> 23 alterar a frase conforme necessário
+> entre 25 e 33 é o texto de confirmação de envio ou de erro
+>>25 deve ter todos as variaveis que se existirem, dar confirmação
+>>26 texto com envio com sucesso
+>>28 texto de negativo
